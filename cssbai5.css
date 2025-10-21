@@ -1,0 +1,29 @@
+body{
+    border: groove;
+    width: 400px
+}
+.mybox{
+    padding: 5px;
+    background-color: #e8b7bf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mybox h1{
+        padding-left: 50px;
+        color: black;
+        
+    }
+
+a{
+    text-decoration: none;
+        
+}
+.mybox2{
+    text-decoration: none;
+
+}
+
+
+
+img{
+    width: 100%;
+}
