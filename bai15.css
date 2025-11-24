@@ -1,0 +1,61 @@
+.main {
+    max-width: 1600px;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #c45252;
+}
+
+.box3s {
+
+    flex-wrap: wrap;
+}
+
+.box3s div {
+        display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.box1 {
+    border: none;
+    background-color: yellow;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: pink;
+}
+
+.footer {
+    background-color: green;
+}
+@media screen and (min-width: 1600px) {
+    .box3s{
+            display: flex;
+    }
+    .box3 {
+        width: 40%;
+    }
+    .main {
+        width: 60%;
+    }
+    .box1 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .box3 {
+        width: 40%;
+    }
+    .main {
+        width: 60%;
+    }
+}
